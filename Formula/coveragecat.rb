@@ -1,8 +1,8 @@
 class Coveragecat < Formula
   desc "Official Coverage Cat CLI for discovery, MCP, and agent-operable API requests"
   homepage "https://www.coveragecat.com/developers/cli"
-  url "https://github.com/Coverage-Cat/coveragecat-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "7108e1fd16fef9fc27728203ea653196410c3d9eadca12aa34a74515c26a9dfb"
+  url "https://github.com/Coverage-Cat/coveragecat-cli/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "2bebc281036432afe70954fc9f4ba191671d3330a64e4ff145500657efe162da"
   head "https://github.com/Coverage-Cat/coveragecat-cli.git", branch: "main"
 
   depends_on "node"
