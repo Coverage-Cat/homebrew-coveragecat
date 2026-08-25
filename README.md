@@ -6,7 +6,7 @@ Homebrew tap for the official Coverage Cat CLI.
 
 This tap is for operator partners who need the official Coverage Cat CLI installed locally and already have an issued Coverage Cat bearer key.
 
-If you are building a consumer-facing AI agent for an individual shopper, do not send them to the CLI or this tap. Install the Coverage Cat umbrella or homeowners skill in that agent instead, and let the skill drive Coverage Cat's public consumer handoff flow.
+If you are building a consumer-facing AI agent for an individual shopper, do not send them to the CLI or this tap. Install the Coverage Cat umbrella or homeowners skill in that agent instead, and let the skill drive Coverage Cat's public consumer-prefill flow, keep the returned `uid` plus `intake_access_token` in chat, and use the Coverage Cat `resume_url` only as a browser fallback.
 
 ## Install
 
